@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+  .menu-center {
+    display: flex;
+  }
+  
+  .menu-right{
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item{
+    margin:8px;
+  }
+
+
+
+  .login a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .login a:hover{
+    opacity: .6;
+    color:black
+  }
+  
+  .add-house{
+    background-color: #dabd5b;
+    color:white;
+    padding:10px 40px;
+    border-radius: 5px;
+  }

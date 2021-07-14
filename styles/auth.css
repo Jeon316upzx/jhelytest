@@ -1,0 +1,71 @@
+.auth{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+   min-height: 100vh;
+   margin-top:100px;
+}
+
+.ads{
+    background-image: url('../public/assets/left.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads-content{
+    background-color: rgba(0, 0, 0, 0.459);
+    color:white;
+    padding:10px;
+    
+}
+
+.ads-content h1{
+    font-weight: 900;
+    font-size:70px;
+}
+
+.myform{
+    margin-top:200px;
+}
+
+input[type='text'], input[type='password']{
+    height: 50px;
+    padding:10px;
+    margin:10px;
+}
+
+input[type="text"]:focus, [type="password"]:focus{
+   box-shadow: none;
+   border-color: #dabd5b;
+}
+
+.btn-auth{
+    background-color: #000;
+    color:white;
+    height: 50px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.password{
+    position: relative;
+}
+
+
+.password span{
+    position: absolute;
+    right:10px;
+    transform: translate(20%, 50%);
+    padding-right:20px;
+    
+}
+
